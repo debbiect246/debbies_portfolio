@@ -1,3 +1,7 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+
 <h1>Debbie's portfolio</h1>
 {% load static %}
 <img src="{% static 'portfolio/debbie.jpg' %}">
@@ -17,3 +21,5 @@
 <a href="{{ project.url }}">Go to project</a>
 {% endif %}
 {% endfor %}
+
+{% endblock %}
