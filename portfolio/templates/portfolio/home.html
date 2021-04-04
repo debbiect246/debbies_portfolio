@@ -2,7 +2,12 @@
 {% load static %}
 <img src="{% static 'portfolio/debbie.jpg' %}">
 
-<!--<a href ="{% static 'portfolio/debbiescv.jpg' %}"> My CV</a>-->
+<a href="{% url 'blog:all_blogs' %}">Blog</a>
+<br>
+
+<!--<a href ="{% static 'portfolio/debbiescv.pdf' %}"> My CV</a>-->
+<br>
+
 {% for project in projects %}
 
 <h2>{{ project.title }}</h2>
