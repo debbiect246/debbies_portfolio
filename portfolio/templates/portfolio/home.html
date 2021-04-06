@@ -5,7 +5,7 @@
 
 {% load static %}
 <div>
-<img src="{% static 'portfolio/debbie.jpg' %}" class="centre">
+<img src="{% static 'portfolio/debbie.jpg' %}" class="centre rounded">
 </div>
 
 <div class="row justify-content-center mb-3">
@@ -26,6 +26,7 @@
     {% if project.url %}
     <a href="{{ project.url }}">
       <img src="{{ project.image.url }}" class="img-fluid mb-2">
+      <br>Go to project
     </a>
     {% else %}
 

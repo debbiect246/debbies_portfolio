@@ -18,8 +18,13 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-}
+    width: 20%;
+    border: 5px solid #555;
+} 
+
+rounded {
+    border-radius: 50%;
+  }
 
 @media (min-width: 992px) {
     #hometext {
