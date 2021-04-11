@@ -1,0 +1,1 @@
+web: gunicorn debbies_coding_blog.wsgi:application
